@@ -1,0 +1,68 @@
+*{
+    font-family: 'work sans';
+    margin: 0;}
+    /* banner styles */
+.banner{
+    background-image: url(../images/banner/banner2.png);
+    background-color: lightgray;
+    background-size: cover;
+    height: 909px;
+    background-repeat: no-repeat;
+}
+.banner-title{
+    padding-left: 1000px;
+    padding-top: 250px;
+    font-size: 65px;
+    padding-right: 400px;
+}
+.banner-description{
+    padding-left: 1000px;
+    padding-top: 20px;
+    color: #444343;
+   padding-right: 400px;
+   text-align: left;
+
+}
+.btn-orange{
+    margin-left: 1200px;
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+}
+/* failure styles */
+.failure{
+    display: flex;
+    gap:200px;
+}
+.failure-img{
+    margin-left: 400px;
+    margin-top: 200px;
+
+}
+.failure-div{
+    margin-top: 450px;
+    margin-right: 200px;
+}
+.failure-title{
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+.failure-description{
+    padding-bottom: 20px;
+    color: #444343;
+}
+ul ,li{
+    color: #444343;
+    padding: 5px ;
+    margin-left: 5px;
+}
+/* plan styles */
+.plan-title{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
