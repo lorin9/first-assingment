@@ -64,5 +64,27 @@ ul ,li{
     text-align: center;
     margin-top: 150px;
     font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    
 }
+.main-div{
+    display: flex;
+    margin-left: 650px;
+    margin-right: 100px;
+}
+.child-div{
+    padding: 30px;
+    gap: 40px;
+    /* margin-right: 100px; */
+}
+.plan-sub-title{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+}
+.plan-description{
+    color: #737272;
+  padding-left: 10px;
 
+}
