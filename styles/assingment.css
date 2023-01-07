@@ -5,13 +5,14 @@
 .banner{
     background-image: url(../images/banner/banner2.png);
     background-color: lightgray;
-    background-size: cover;
-    height: 909px;
+    /* background-size: cover; */
+    height: 800px;
+    width: 100%;
     background-repeat: no-repeat;
 }
 .banner-title{
     padding-left: 1000px;
-    padding-top: 250px;
+    padding-top: 100px;
     font-size: 65px;
     padding-right: 400px;
 }
@@ -19,12 +20,12 @@
     padding-left: 1000px;
     padding-top: 20px;
     color: #444343;
-   padding-right: 400px;
+   padding-right: 200px;
    text-align: left;
 
 }
 .btn-orange{
-    margin-left: 1200px;
+    margin-left: 1000px;
     margin-top: 10px;
     padding: 15px;
     color: white;
@@ -38,7 +39,7 @@
     gap:200px;
 }
 .failure-img{
-    margin-left: 400px;
+    margin-left: 200px;
     margin-top: 200px;
 
 }
@@ -70,12 +71,14 @@ ul ,li{
 }
 .main-div{
     display: flex;
-    margin-left: 650px;
+    margin-left: 350px;
     margin-right: 100px;
 }
 .child-div{
-    padding: 30px;
+    padding: 30px ;
     gap: 40px;
+    padding-right: 50px;
+    
     /* margin-right: 100px; */
 }
 .plan-sub-title{
@@ -87,4 +90,93 @@ ul ,li{
     color: #737272;
   padding-left: 10px;
 
+}
+/* gradient styles */
+.gradient{
+    margin: 150px ;
+ background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+ /* background-image: url(../images/watch.png); */
+ background-repeat: no-repeat;
+ border-radius: 8px;
+ padding: 200px;  
+}
+.gradient-title{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+   text-align: left;
+}
+.button-white{
+    padding: 10px;
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+/* school-college life styles */
+.study{
+    background-color: skyblue;
+    margin: 100px;
+    padding: 20px;
+    
+}
+.title-school-college{
+   text-align: center;
+   font-weight: 700;
+   font-size: 30px;
+   color:purple;
+   text-decoration: underline;
+}
+.both-school-college{
+    display: flex;
+    gap: 100px;
+    margin: 50px;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    color: darkred;
+}
+.sub-title{
+    color: chocolate
+
+}
+.description{
+    color:black;
+}
+/* last part styles */
+.last{
+    display: flex;
+    gap: 300px;
+    padding: 200px;
+    background-color:black ;
+    color: white;
+}
+.last-title{
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.last-description{
+    padding-bottom:20px ;
+}
+.last-sub-description{
+    padding-bottom: 20px;
+}
+a{
+  text-decoration: none;
+  padding-left: 8px;
+}
+#email{
+    padding: 15px 50px;
+    border: 1px solid grey;
+border-radius: 3px;
+margin-bottom: 20px;
+background-color: black;
+color: grey;
+}
+.btn-submit{
+    padding: 10px 30px;
+    color: orange;
+    font-size: 20px;
 }
